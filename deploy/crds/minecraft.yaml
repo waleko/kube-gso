@@ -8,7 +8,7 @@ spec:
   server:
     version: latest
     name: My Minecraft Server
-    port: 25565
+    port: 31930
     # host:
     type: PAPER # One of BUKKIT|SPIGOT|PAPER|FORGE|FTB|CURSEFORGE|VANILLA|SPONGEVANILLA|CUSTOM
     # icon: ICON=http://..../some/image.png

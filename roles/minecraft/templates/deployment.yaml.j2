@@ -27,9 +27,9 @@ spec:
         imagePullPolicy: IfNotPresent
         name: minecraft-server
         ports:
-        - containerPort: 25575
+        - containerPort: 33930
           protocol: TCP
-        - containerPort: 25565
+        - containerPort: 31930
           protocol: TCP
         volumeMounts: {{ volume_mounts | to_json }}
         resources: {{ resources | to_json}}
