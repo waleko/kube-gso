@@ -1,6 +1,6 @@
 ---
 
-- name: Set address on status
+- name: Set_address_on_status
   when: has_route
   k8s_status:
     api_version: games.fabianism.us/v1alpha1
@@ -23,7 +23,7 @@
       resource_name=meta.name + '-minecraft'
     ).0.spec.ports.0.nodePort }}"
 
-- name: Set address on status
+- name: Set_address_on_status
   when: not has_route
   k8s_status:
     api_version: games.fabianism.us/v1alpha1

@@ -14,10 +14,6 @@ spec:
     # icon: ICON=http://..../some/image.png
     difficulty: normal # One of peaceful|easy|normal|hard|
     maxPlayers: 15
-    whitelist:
-    - waleko
-    ops:
-    - waleko
     announcePlayerAchievements: True
     # enableCommandBlock: False
     # forceGamemode: False
@@ -25,11 +21,12 @@ spec:
     # snooperEnabled: False
     # maxTickTime: 60000
     # viewDistance: 10
-    # mode: survival # One of creative|survival|adventure|spectator
+    mode: survival # One of creative|survival|adventure|spectator
     motd: 2021A Vanilla Minecraft Server, named after Tima Riko
     # pvp: True
     enableRcon: True
     rconPassword: amavod63
+
     onlineMode: False
     # allowNether: True
     # allowFlight: False
@@ -62,7 +59,7 @@ spec:
     # spongeBranch:
     # customServer:
   jvm:
-    memory: 4G
+    memory: 2G
     # initMemory:
     # maxMemory:
     # jvmOpts:
@@ -71,6 +68,3 @@ spec:
   volumes:
     data:
       type: PersistentVolumeClaim
-      create: True
-      size: 10G
-
